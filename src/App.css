@@ -1,0 +1,6 @@
+.App {
+  text-align: center;
+  display: flex;
+  height: 900px;
+  background:linear-gradient(to right,rgba(252, 234, 218, 0.89),rgba(253, 200, 154, 0.872));
+}

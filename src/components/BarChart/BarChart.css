@@ -1,0 +1,8 @@
+.HeaderBar {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.image1{
+    margin-bottom: 50px;
+}

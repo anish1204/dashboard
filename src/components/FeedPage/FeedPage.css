@@ -1,0 +1,205 @@
+.FeedPage{
+    display: flex;
+    flex: 6;
+    margin-left: 10px;
+    
+}
+.FeedHeading{
+    margin-top: 25px;
+}
+.Data{
+  
+    background-color: rgb(255, 255, 255);
+    height: 80%;
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 75%;
+    border-radius: 15px;
+}
+.ProfilePicture1{
+    position: relative;
+    display: flex;
+    left: 76%;
+    height: 50px;width: 50px;
+}
+.ProfilePicture{
+    position: relative;
+    display: flex;
+    left: 80%;
+    margin-bottom: 19px;
+    height: 50px;width: 50px;
+    border: 2px solid black;
+    border-radius:20%;
+   
+   
+
+}
+.ProfileInfo{
+   gap: 5px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    
+    
+    width: 60%;
+}
+.FeedHeading{
+    display: flex;
+}
+.balance
+{
+    margin-right: 20px;
+    margin-left: 25px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.SalaryGraph{
+    height: 35%;
+    width: 100%;
+    
+}
+.MainBottom{
+    display: flex;
+}
+.PaymentsHeading{
+    float: left;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.compaines{
+    display: flex;
+    
+    gap:5px;
+    align-items: center;
+}
+.companyCard{
+    margin-left: 12px;
+    border-radius: 12px;
+    height: 157px;
+    width: 170px;
+   background:linear-gradient(to right,rgba(211, 211, 211, 0.683),rgba(37, 139, 248, 0.486));
+    
+}
+.table h6{
+   color: black;
+   font-size: 20px;
+   font-weight: 450;
+}
+.companyName{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 5px;
+    font-size: 10px;
+    font-weight: 500;
+    
+}
+.companyIcon{
+    margin-top: 15px;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+  
+}
+.PaymentsHeading{
+    font-weight: 500;
+    margin-left: 15px;
+    font-size: 23px;
+    
+
+}
+.table{
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 80px;
+    background-color: rgb(247, 247, 247);
+    border: 1px  solid rgb(247, 247, 247);
+    border-radius: 55px;
+}
+
+.table{
+    font-size: 11px;
+    color: rgb(47, 47, 47);
+    align-items: center;
+    justify-content: start;
+    width: 80%;
+}
+.balance1{
+    float: left;
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.Transaction{
+    border-radius: 55px;
+    width: 72%;
+}
+.tableImages{
+    object-fit: cover;
+    height: 20px;width: 20px;
+}
+@media only screen and (max-width:400px) {
+    .companies{
+        display:block;
+    }
+}
+.BottomRight{
+   
+    width: 40%;
+    height: 160px;
+}
+.Text{
+    font-size: 19px;
+    justify-content: start;
+    float: left;
+    margin-left: 3px;
+}
+.Box1{
+    display: flex;
+    border-radius: 20%;
+    margin-top: 8%;
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+}
+.Box12{
+    display: flex;
+    border-radius: 20%;
+    margin-top: 8%;
+    background-color: rgb(99, 9, 201);
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20%;
+}
+.Box2{
+    margin-bottom: 10%;
+     border-radius: 20%;
+    margin-top: 4%;
+    background-color: rgb(99, 9, 201);
+    height: 50px;
+    width: 50px;
+}
+.BoxIcon{
+    margin-left: 20%;
+    margin-top: 25%;
+}
+.BoxIcon1{
+    margin-top: 25%;
+}
+.BoxData{
+    width: 50px;
+    margin-left: 60%;
+    font-size: 10px;
+    font-weight: 500;
+}
+.BoxTextBottom{
+    width: 150px;
+    color: gray;
+}
